@@ -5,7 +5,7 @@ st='' #init blank string
 for k in a:
     num=a.count(k)
     if k in st:
-        h.append(None)
+        h.append('None')
     else:
         st +=k
         h.append(num)
